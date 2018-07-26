@@ -1,0 +1,36 @@
+{
+  "name": "env-cobbler",
+  "version": "1.0.0",
+  "description": "Cobbler",
+  "homepage": "https://tallysticks.io",
+  "bugs": {
+    "url": "https://github.com/Tallysticks/env-cobbler/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Edward Ruchevits",
+    "email": "edward@tallysticks.io"
+  },
+  "contributors": [
+    {
+      "name": "Edward Ruchevits",
+      "email": "edward@tallysticks.io"
+    }
+  ],
+  "main": "src",
+  "bin": {
+    "cobbler": "bin/cobbler.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tallysticks/env-cobbler.git"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.276.1",
+    "debug": "^3.1.0",
+    "lodash": "^4.17.4"
+  },
+  "engines": {
+    "node": "8.x.x"
+  }
+}
